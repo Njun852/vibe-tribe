@@ -1,0 +1,23 @@
+header{
+    box-sizing: content-box;
+    background-color: #D19F9F;
+    padding: 5px 35px 5px 35px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.logo{
+    height: 50px;
+    border-radius: 100%;
+}
+header :nth-child(1){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header :nth-child(2){
+    margin-left: auto;
+}
+
